@@ -30,4 +30,4 @@ def main(a,b,c):
     else:
         print("Manfiy sonlar ko'p")
     return a+b+c
-print(main(1,-2,3))
+main(-1,-2,-3)
