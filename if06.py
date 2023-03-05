@@ -13,21 +13,30 @@ def main(a,b,c):
     Returns:
         string: string with the result
     """
-    if a>0:
-        a=1
-    else:
-        a=0
-    if b>0:
-        b=1
-    else:
-        b=0
-    if c>0:
-        c=1
-    else:
-        c=0
-    if a+b+c>=2:
-        print("Musbat sonlar ko'p")
-    else:
-        print("Manfiy sonlar ko'p")
-    return a+b+c
-main(-1,-2,-3)
+    if a>0 and b>0 and c>0:
+        return "there are a lot of positive numbers"
+
+    if a>0 and b>0 and c<0:
+        return "there are a lot of positive numbers"
+
+    if a>0 and b<0 and c>0:
+        return "there are a lot of positive numbers"
+
+    if a<0 and b>0 and c>0:
+        return "there are a lot of positive numbers"
+        
+
+
+    if a<0 and b<0 and c<0:
+        return "there are a lot of negative numbers"
+
+    if a<0 and b<0 and c>0:
+        return "there are a lot of negative numbers"
+
+    if a<0 and b>0 and c<0:
+        return "there are a lot of negative numbers"
+
+    if a>0 and b<0 and c<0:
+        return "there are a lot of negative numbers"
+
+print(main(-2,-3,4))
