@@ -13,18 +13,18 @@ def main(a):
         string: the message to print
     """
     if a>0 and a==int(a) and a%2==1:
-        return "Musbat toq son"
+        return "positive odd number"
 
     if a>0 and a==int(a) and a%2==0:
-        return "Musbat juft son"
+        return "positive even number"
 
     if a<0 and a==int(a) and a%2==1:
-        return "Manfiy toq son"
+        return "negative odd number"
 
     if a<0 and a==int(a) and a%2==0:
-        return "Manfiy juft son"
+        return "negative even number"
     
     if a==0 and a==int(a):
-        return "Son nol"
+        return "the number is zero"
 
-print(main(3))
+print(main(57))
