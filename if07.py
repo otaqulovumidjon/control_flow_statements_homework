@@ -15,7 +15,7 @@ def main(a):
     if a>0 and a%2==1:
         print("Musbat toq son")
 
-    if a>0 and a%3==0:
+    if a>0 and a%2==0:
         print("Musbat juft son")
 
     if a<0 and a%2==1:
@@ -28,4 +28,4 @@ def main(a):
         print("Son nol")
     return a
 
-print(main(5))
+print(main(56))
