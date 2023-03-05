@@ -13,19 +13,18 @@ def main(a):
         string: the message to print
     """
     if a>0 and a==int(a) and a%2==1:
-        print("Musbat toq son")
+        return "Musbat toq son"
 
     if a>0 and a==int(a) and a%2==0:
-        print("Musbat juft son")
+        return "Musbat juft son"
 
     if a<0 and a==int(a) and a%2==1:
-        print("Manfiy toq son")
+        return "Manfiy toq son"
 
     if a<0 and a==int(a) and a%2==0:
-        print("Manfiy juft son")
+        return "Manfiy juft son"
     
     if a==0 and a==int(a):
-        print("Son nol")
-    return "Son nol"
+        return "Son nol"
 
-print(main(0.3))
+print(main(3))
