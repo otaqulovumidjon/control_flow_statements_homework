@@ -27,7 +27,7 @@ def main(a,b,c):
         
 
 
-    if a<0 and b<0 and c<0:
+    if a<0 and b<0 and c<0: 
         x = "there are a lot of negative numbers"
 
     if a<0 and b<0 and c>0:
