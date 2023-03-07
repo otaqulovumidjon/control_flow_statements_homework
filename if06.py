@@ -14,29 +14,31 @@ def main(a,b,c):
         string: string with the result
     """
     if a>0 and b>0 and c>0:
-        return "there are a lot of positive numbers"
+        x = "there are a lot of positive numbers"
 
     if a>0 and b>0 and c<0:
-        return "there are a lot of positive numbers"
+        x = "there are a lot of positive numbers"
 
     if a>0 and b<0 and c>0:
-        return "there are a lot of positive numbers"
+        x = "there are a lot of positive numbers"
 
     if a<0 and b>0 and c>0:
-        return "there are a lot of positive numbers"
+        x = "there are a lot of positive numbers"
         
 
 
     if a<0 and b<0 and c<0:
-        return "there are a lot of negative numbers"
+        x = "there are a lot of negative numbers"
 
     if a<0 and b<0 and c>0:
-        return "there are a lot of negative numbers"
+        x = "there are a lot of negative numbers"
 
     if a<0 and b>0 and c<0:
-        return "there are a lot of negative numbers"
+        x = "there are a lot of negative numbers"
 
     if a>0 and b<0 and c<0:
-        return "there are a lot of negative numbers"
+        x = "there are a lot of negative numbers"
+    
+    return x
 
 print(main(-2,-3,4))
