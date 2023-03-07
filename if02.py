@@ -12,4 +12,4 @@ def main(a):
         a-=2
     return a
 
-print(main(8))
+print(main(18))
